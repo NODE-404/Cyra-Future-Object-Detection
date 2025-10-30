@@ -3,8 +3,6 @@ import open3d as o3d
 import os
 import sys
 
-#
-./bin_folder ./pcd_folder
 
 if len(sys.argv) < 3:
     print("Usage: python bin_to_pcd.py <input_bin_dir> <output_pcd_dir>")
